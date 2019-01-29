@@ -31,7 +31,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  var pos=kitten.indexOf('Garfield')
+  var pos=kittens.indexOf('Garfield')
  [kittens.splice(pos, 2)]
 return kittens
 }
